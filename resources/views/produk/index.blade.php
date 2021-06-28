@@ -43,9 +43,10 @@
  
 
  <div class="container">
+ <div class="row" style="margin-top:15px;">
  @foreach($data_produk as $produk)
-    <div class="row" style="margin-top:15px;">
-      <div class="col-3">
+    
+      <div class="col-md-4">
         <div class="card h-100 shadow p-3 bg-white rounded">
           <img src="..." class="card-img-top" alt="...">
           <div class="card-body">
@@ -57,11 +58,11 @@
           </div>
         </div>
       </div>
-      
-      
+       @endforeach
     </div>
-  @endforeach
+ 
 </div>
+
 
  </div>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" cross
